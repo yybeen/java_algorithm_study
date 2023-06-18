@@ -12,7 +12,7 @@ public class Main
 	    StringTokenizer st = new StringTokenizer(br.readLine());
         
         int[] array = new int[N];
-        // List<Integer> result = new ArrayList<>();
+        
         int result = 0;
         
         for(int i = 0; i < N; i++){

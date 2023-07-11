@@ -7,7 +7,7 @@ class Solution {
         
         for(String s : keymap) {
             for(int i = 0; i < s.length(); i++) {
-                alphabetNum = s.charAt(i) - 65;
+                alphabetNum = s.charAt(i) - 'A';
                 if(alphabet[alphabetNum] > (i + 1) || alphabet[alphabetNum] == 0) {
                     alphabet[alphabetNum] = i + 1;
                 }
@@ -17,7 +17,7 @@ class Solution {
         for(int i = 0; i < targets.length; i++) {
             cnt = 0;
             for(int j = 0; j < targets[i].length(); j++) {
-                alphabetNum = targets[i].charAt(j) - 65;
+                alphabetNum = targets[i].charAt(j) - 'A';
                 if(alphabet[alphabetNum] == 0) {
                     cnt = -1;
                     break;

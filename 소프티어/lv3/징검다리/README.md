@@ -1,4 +1,4 @@
-# [level 3] 성적 평균
+# [level 3] 징검다리
 
 [문제 링크](https://softeer.ai/practice/6293) 
 

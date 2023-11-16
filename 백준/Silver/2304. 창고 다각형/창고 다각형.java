@@ -3,8 +3,6 @@ import java.util.*;
 
 public class Main
 {
-    public static boolean[] visited = new boolean[9];
-    
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		

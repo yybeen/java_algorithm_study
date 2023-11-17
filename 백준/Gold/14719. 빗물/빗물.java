@@ -9,8 +9,7 @@ public class Main
 		
 		int H = Integer.parseInt(st.nextToken());
 		int W = Integer.parseInt(st.nextToken());
-		int maxH = 0;
-		int maxW = 0;
+
 		int[] height = new int[W];
 		int answer = 0;
 		
